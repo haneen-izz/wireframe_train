@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    overflow-x: hidden;
+    
+}
+
+
+nav{
+
+position: relative;
+bottom: 50px;
+left:250px;
+
+}
+
+ul li{
+list-style: none;
+display:inline;
+margin:10px;
+font-weight: bold;
+color: black;
+
+}
+
+ul li a {
+color: black;
+text-decoration: none;
+position: relative;
+top:8.4px;
+}
+
+ul li a:hover {
+    color:rgb(207, 17, 17); 
+    border-bottom: 2px solid rgb(207, 17, 17); 
+   padding-bottom: 8px;
+}
+
+
+
+
+header{
+    font-family: 'Merriweather', serif;
+   height: 60px;
+   box-shadow: 1px 1px 20px 3px grey;
+   font-size: 12px;
+}
+
+
+
+#iconImg{
+position: relative;
+left:190px;
+top:5px;
+}
+
+header .dropDown{
+position: absolute;
+top: 20px;
+left:890px;
+
+}
+
+header .dropDown #dropLink{
+    color: black;
+    text-decoration: none;
+}
+
+header .dropDown #dropLink:hover{
+color: rgb(207, 17, 17); 
+}
+
+header .dropDown .dropContent a{
+    color: black;
+    text-decoration: none; 
+    text-align: center;
+    z-index: 1;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    width: 100%;
+    padding: 20px;
+   background-color:darkgrey;
+
+margin-top: 10px;
+}
+
+.dropDown:hover .dropContent a {
+  display: block;
+  position: relative;
+
+}
+
+#image{
+position: absolute;
+width:30px;
+left: 850px;
+top:13px;
+}
